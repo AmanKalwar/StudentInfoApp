@@ -1,0 +1,31 @@
+<div class="card">
+  <div class="card-header">
+    {{pageTitle}}
+  </div>
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table" *ngIf="StudentsInfo.length">
+        <thead>
+          <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+            <th>Course</th>
+            <th>Course Duration (in Months)</th>
+            <th>Training Mode</th>
+            <th>Location Info</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of StudentsInfo">
+            <td>{{student.studentID}}</td>
+            <td>{{student.studentname}}</td>
+            <td>{{student.course}}</td>
+            <td>{{student.courseDuration}}</td>
+            <td>{{student.trainingMode}}</td>
+            <td>{{student.locationInfo}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+[
+  {
+    "studentID": 1,
+    "studentname": "Aman",
+    "course":".NET",
+    "courseDuration": 3 ,
+    "trainingMode": "Online",
+    "locationInfo":"Online"
+  },
+  {
+    "studentID": 2,
+    "studentname": "Nikhil",
+    "course":"JAVA",
+    "courseDuration": 4 ,
+    "trainingMode": "Offline",
+    "locationInfo":"Chennai"
+  },
+  {
+    "studentID": 3,
+    "studentname": "Arshad",
+    "course":"AWS",
+    "courseDuration": 5 ,
+    "trainingMode": "Online",
+    "locationInfo":"Online"
+  },
+  {
+    "studentID": 4,
+    "studentname": "Malhar",
+    "course":"Python",
+    "courseDuration": 1 ,
+    "trainingMode": "Offline",
+    "locationInfo":"Hyderabad"
+  },
+  {
+    "studentID": 5,
+    "studentname": "Vivek",
+    "course":"Azure",
+    "courseDuration": 6 ,
+    "trainingMode": "Offline",
+    "locationInfo":"Bangalore"
+  }
+]
